@@ -1,0 +1,1024 @@
+{
+  "id": 875,
+  "key": "Sett",
+  "name": "Sett",
+  "title": "the Boss",
+  "fullName": "",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/11.7.1/img/champion/Sett.png",
+  "resource": "GRIT",
+  "attackType": "MELEE",
+  "adaptiveType": "PHYSICAL_DAMAGE",
+  "stats": {
+    "health": {
+      "flat": 600,
+      "percent": 0.0,
+      "perLevel": 93,
+      "percentPerLevel": 0.0
+    },
+    "healthRegen": {
+      "flat": 7,
+      "percent": 0.0,
+      "perLevel": 0.5,
+      "percentPerLevel": 0.0
+    },
+    "mana": {
+      "flat": 0,
+      "percent": 0.0,
+      "perLevel": 0,
+      "percentPerLevel": 0.0
+    },
+    "manaRegen": {
+      "flat": 0,
+      "percent": 0.0,
+      "perLevel": 0,
+      "percentPerLevel": 0.0
+    },
+    "armor": {
+      "flat": 33,
+      "percent": 0.0,
+      "perLevel": 4,
+      "percentPerLevel": 0.0
+    },
+    "magicResistance": {
+      "flat": 32,
+      "percent": 0.0,
+      "perLevel": 1.25,
+      "percentPerLevel": 0.0
+    },
+    "attackDamage": {
+      "flat": 60,
+      "percent": 0.0,
+      "perLevel": 4,
+      "percentPerLevel": 0.0
+    },
+    "movespeed": {
+      "flat": 340,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "acquisitionRadius": {
+      "flat": 600,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "selectionRadius": {
+      "flat": 100,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "pathingRadius": {
+      "flat": 35,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "gameplayRadius": {
+      "flat": 65,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "criticalStrikeDamage": {
+      "flat": 200,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "criticalStrikeDamageModifier": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackSpeed": {
+      "flat": 0.625,
+      "percent": 0.0,
+      "perLevel": 1.75,
+      "percentPerLevel": 0.0
+    },
+    "attackSpeedRatio": {
+      "flat": 0.625,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackCastTime": {
+      "flat": 0.3,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackTotalTime": {
+      "flat": 1.6,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackDelayOffset": {
+      "flat": -0.0857142857,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackRange": {
+      "flat": 125,
+      "percent": 0.0,
+      "perLevel": 0,
+      "percentPerLevel": 0.0
+    },
+    "aramDamageTaken": {
+      "flat": 1.05,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "aramDamageDealt": {
+      "flat": 0.95,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "aramHealing": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "aramShielding": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfDamageTaken": {
+      "flat": 0.9,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfDamageDealt": {
+      "flat": 1.08,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfHealing": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfShielding": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    }
+  },
+  "roles": [
+    "FIGHTER",
+    "JUGGERNAUT",
+    "TANK"
+  ],
+  "attributeRatings": {
+    "damage": 2,
+    "toughness": 2,
+    "control": 2,
+    "mobility": 2,
+    "utility": 1,
+    "abilityReliance": 40,
+    "attack": 8,
+    "defense": 5,
+    "magic": 1,
+    "difficulty": 2
+  },
+  "abilities": {
+    "P": [
+      {
+        "name": "Pit Grit",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/p",
+        "effects": [
+          {
+            "description": "Innate - Heavy Hands: Sett's basic attacks alternate between a Left Punch and a Right Punch on-attack. Sett begins attacking with a Left Punch, and will reset back to it after 2 seconds of not performing a Right Punch.",
+            "leveling": []
+          },
+          {
+            "description": "Sett's Right Punch gains 50 bonus range, attacks at 8 times the Left Punch's attack speed, and deals 5 \u2212 90 (based on level) (+ 50% bonus AD) bonus physical damage.",
+            "leveling": []
+          },
+          {
+            "description": "Innate - Heart of the Half-Beast: Sett regenerates 0.25 / 0.5 / 1 / 2 (based on level) health per second for every 5% of his missing health.",
+            "leveling": []
+          }
+        ],
+        "cost": null,
+        "cooldown": null,
+        "targeting": "Passive",
+        "affects": "Self, Enemies",
+        "spellshieldable": null,
+        "resource": null,
+        "damageType": "PHYSICAL_DAMAGE",
+        "spellEffects": "Proc",
+        "projectile": null,
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "The Right Punch does not grant  bonus attack speed, rather is fixed at 800% of the Left Punch's  total attack speed and it is unaffected by  cripples and attack speed buffs (i.e  Hail of Blades) for the duration.\nThe bonus physical damage from the Right Punch benefits from  life steal.",
+        "blurb": null,
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": null,
+        "angle": null,
+        "castTime": null,
+        "effectRadius": null,
+        "targetRange": null
+      }
+    ],
+    "Q": [
+      {
+        "name": "Knuckle Down",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/q",
+        "effects": [
+          {
+            "description": "Active: Sett empowers his next two basic attacks within 5 seconds to deal bonus physical damage, capped at 400 bonus damage per attack against minions and monsters.",
+            "leveling": [
+              {
+                "attribute": "Bonus Physical Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      10,
+                      20,
+                      30,
+                      40,
+                      50
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "units": [
+                      "1% (+ 1 / 1.5 / 2 / 2.5 / 3% per 100 AD) of target's maximum health",
+                      "1% (+ 1 / 1.5 / 2 / 2.5 / 3% per 100 AD) of target's maximum health",
+                      "1% (+ 1 / 1.5 / 2 / 2.5 / 3% per 100 AD) of target's maximum health",
+                      "1% (+ 1 / 1.5 / 2 / 2.5 / 3% per 100 AD) of target's maximum health",
+                      "1% (+ 1 / 1.5 / 2 / 2.5 / 3% per 100 AD) of target's maximum health"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Total Bonus Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      20,
+                      40,
+                      60,
+                      80,
+                      100
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      0,
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "units": [
+                      "2% (+ 2 / 3 / 4 / 5 / 6% per 100 AD) of target's maximum health",
+                      "2% (+ 2 / 3 / 4 / 5 / 6% per 100 AD) of target's maximum health",
+                      "2% (+ 2 / 3 / 4 / 5 / 6% per 100 AD) of target's maximum health",
+                      "2% (+ 2 / 3 / 4 / 5 / 6% per 100 AD) of target's maximum health",
+                      "2% (+ 2 / 3 / 4 / 5 / 6% per 100 AD) of target's maximum health"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "For 1.5 seconds, Sett also gains 30% bonus movement speed when he moves towards visible enemy champions within 2000 units.",
+            "leveling": []
+          },
+          {
+            "description": "Knuckle Down resets Sett's basic attack timer. The empowered attacks are guaranteed to be a Left Punch followed by a Right Punch, resetting Sett's current Pit Grit state (if applicable) and ignoring the usual time-out period for a follow-up Right Punch.",
+            "leveling": []
+          }
+        ],
+        "cost": null,
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                9,
+                8,
+                7,
+                6,
+                5
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Auto",
+        "affects": "Self, Enemies",
+        "spellshieldable": "False",
+        "resource": null,
+        "damageType": "PHYSICAL_DAMAGE",
+        "spellEffects": "Proc",
+        "projectile": null,
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "The bonus movement speed buff is named Looking For a Fight.\nKnuckle Down can be  dodged,  blocked or missed while Sett is  blinded.",
+        "blurb": null,
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": null,
+        "angle": null,
+        "castTime": "none",
+        "effectRadius": null,
+        "targetRange": null
+      }
+    ],
+    "W": [
+      {
+        "name": "Haymaker",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/w",
+        "effects": [
+          {
+            "description": "Passive: Sett stores 100% of post-mitigation damage taken as Grit on his resource bar, up to 50% of his maximum health. Each instance of stored Grit decays by 30% every second after 4 seconds.",
+            "leveling": []
+          },
+          {
+            "description": "Active: Sett immediately gains a shield equal to his expended Grit for 3 seconds, decaying after 0.75 seconds, and charges up a strike over the cast time.",
+            "leveling": []
+          },
+          {
+            "description": "After the cast time, he unleashes a blast in a cone in the target direction, dealing physical damage to enemies within the area, and true damage instead to all those in the center.",
+            "leveling": [
+              {
+                "attribute": "Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      80,
+                      100,
+                      120,
+                      140,
+                      160
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      25,
+                      25,
+                      25,
+                      25,
+                      25
+                    ],
+                    "units": [
+                      "% (+ 10% per 100 bonus AD) of expended Grit",
+                      "% (+ 10% per 100 bonus AD) of expended Grit",
+                      "% (+ 10% per 100 bonus AD) of expended Grit",
+                      "% (+ 10% per 100 bonus AD) of expended Grit",
+                      "% (+ 10% per 100 bonus AD) of expended Grit"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "cost": {
+          "modifiers": [
+            {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "units": [
+                "%",
+                "%",
+                "%",
+                "%",
+                "%"
+              ]
+            }
+          ]
+        },
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                18,
+                16.5,
+                15,
+                13.5,
+                12
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Direction",
+        "affects": "Self, Enemies",
+        "spellshieldable": "True",
+        "resource": "GRIT",
+        "damageType": "MIXED_DAMAGE",
+        "spellEffects": "aoe",
+        "projectile": "FALSE",
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "The shield is created immediately and will decay after the blast delay.\nThe buff for the shield is named Down But Not Out.\nSett does not store Grit from damage that was mitigated by  shields.\nHaymaker will cast from wherever Sett is at the end of the cast time.\nSett will turn towards the target direction at the start of the cast time.\n Flash can be used during Haymaker's cast time\nSett will glow when attaining 90% Grit. Casting Haymaker at this amount has a different visual and audio effect.\n     Sett will turn golden (base skin).",
+        "blurb": null,
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": "805 / 180",
+        "angle": "27\u00b0",
+        "castTime": "0.75",
+        "effectRadius": null,
+        "targetRange": "790"
+      }
+    ],
+    "E": [
+      {
+        "name": "Facebreaker",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/e",
+        "effects": [
+          {
+            "description": "Active: Sett pulls in enemies at his front and back in the target direction, dealing them physical damage and slowing them by 50% for 0.5 seconds.",
+            "leveling": [
+              {
+                "attribute": "Physical Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      50,
+                      70,
+                      90,
+                      110,
+                      130
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      60,
+                      60,
+                      60,
+                      60,
+                      60
+                    ],
+                    "units": [
+                      "% AD",
+                      "% AD",
+                      "% AD",
+                      "% AD",
+                      "% AD"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "If Facebreaker affects at least one enemy on each side, all enemies are stunned for 1 second upon landing.",
+            "leveling": []
+          }
+        ],
+        "cost": null,
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                16,
+                14.5,
+                13,
+                11.5,
+                10
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Direction",
+        "affects": "Enemies",
+        "spellshieldable": "true",
+        "resource": null,
+        "damageType": "PHYSICAL_DAMAGE",
+        "spellEffects": "aoe",
+        "projectile": "FALSE",
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "Sett will attempt to basic attack the closest target after Facebreaker.\nA target will rebound to Sett's base attack range.\nThere is a smaller affected area at Sett's sides, the spell indicator does not illustrate this for practical reasons.\nIf targets on either opposite side are protected by  spell shields, Facebreaker will not  stun.",
+        "blurb": null,
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": "350",
+        "angle": null,
+        "castTime": "0.3",
+        "effectRadius": null,
+        "targetRange": "490"
+      }
+    ],
+    "R": [
+      {
+        "name": "The Show Stopper",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/r",
+        "effects": [
+          {
+            "description": "Active: Sett dashes with displacement immunity a fixed distance over 1.5 seconds toward and past the target enemy champion, attaching the target to him upon arrival and suppressing them for the duration, during which they are also revealed. Upon completing the dash, Sett slams the target into the ground, creating a massive shockwave at the impact area.",
+            "leveling": []
+          },
+          {
+            "description": "Enemies within the epicenter take physical damage. Enemies outside of the epicenter but within the impact area take physical damage, reduced by up to 75% at the edge. All enemies hit are slowed by 99% for 1 second.",
+            "leveling": [
+              {
+                "attribute": "Physical Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      200,
+                      300,
+                      400
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      100,
+                      100,
+                      100
+                    ],
+                    "units": [
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD"
+                    ]
+                  },
+                  {
+                    "values": [
+                      40,
+                      50,
+                      60
+                    ],
+                    "units": [
+                      "% of primary target's bonus health",
+                      "% of primary target's bonus health",
+                      "% of primary target's bonus health"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Minimum Physical Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      50,
+                      75,
+                      100
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      25,
+                      25,
+                      25
+                    ],
+                    "units": [
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD"
+                    ]
+                  },
+                  {
+                    "values": [
+                      10,
+                      12.5,
+                      15
+                    ],
+                    "units": [
+                      "% of primary target's bonus health",
+                      "% of primary target's bonus health",
+                      "% of primary target's bonus health"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "The dash will prematurely end upon reaching a wall that cannot be dashed through by Sett.",
+            "leveling": []
+          }
+        ],
+        "cost": null,
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                120,
+                100,
+                80
+              ],
+              "units": [
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Unit",
+        "affects": "Enemies",
+        "spellshieldable": "true",
+        "resource": null,
+        "damageType": "PHYSICAL_DAMAGE",
+        "spellEffects": "aoe",
+        "projectile": null,
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "Sett lands 200 units farther from the impact, the damage is applied after the time it takes to reposition.\nSett will dash from The Show Stopper even if the target resists the  attachment or detaches from him, which can be done so by negating or removing the  suppression. This includes if the target:\nHas a  spell shield.\nIs  crowd control immune or  displacement immune.\nUses a  cleansing effect, either before or after the attachment.\n Dies or enters  resurrection.\nIs  Devoured.\nSett will only attach the target to him if they are still suppressed upon his arrival.\nIf the dash is interrupted, the target will be detached from Sett and the suppression will end immediately.\nIf Sett enters  resurrection the moment before the attachment, Sett will continue to perform the dash.*\nIf the target is  untargetable upon Sett's arrival, he will stop the dash immediately.\nIf the target is 2000 or more units away before Sett's arrival, he will not attach them to him. The  suppression will last 5 seconds in this case.*\nThe \"crater\" VFX does not represent the entire explosion radius. Additionally, the explosion radius is non-uniform.*",
+        "blurb": null,
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": null,
+        "angle": null,
+        "castTime": "none",
+        "effectRadius": "600",
+        "targetRange": "400"
+      }
+    ]
+  },
+  "releaseDate": "2020-01-14",
+  "releasePatch": "10.1",
+  "patchLastChanged": "10.18",
+  "price": {
+    "blueEssence": 6300,
+    "rp": 975,
+    "saleRp": 0
+  },
+  "lore": "A leader of Ionia's growing criminal underworld, Sett rose to prominence in the wake of the war with Noxus. Though he began as a humble challenger in the fighting pits of Navori, he quickly gained notoriety for his savage strength, and his ability to take seemingly endless amounts of punishment. Now, having climbed through the ranks of local combatants, Sett has muscled to the top, reigning over the pits he once fought in.",
+  "skins": [
+    {
+      "name": "Original",
+      "id": 875000,
+      "isBase": true,
+      "availability": "Available",
+      "formatName": "Original",
+      "lootEligible": true,
+      "cost": 975,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "NoRarity",
+      "chromas": [],
+      "lore": "A leader of Ionia's growing criminal underworld, Sett rose to prominence in the wake of the war with Noxus. Though he began as a humble challenger in the fighting pits of Navori, he quickly gained notoriety for his savage strength, and his ability to take seemingly endless amounts of punishment. Now, having climbed through the ranks of local combatants, Sett has muscled to the top, reigning over the pits he once fought in.",
+      "release": "2020-01-14",
+      "set": [],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/875/875000.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/875/875000.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/875/875000.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sett/skins/base/settloadscreen.sett.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sett/skins/base/settloadscreen_le.sett.jpg",
+      "newEffects": false,
+      "newAnimations": false,
+      "newRecall": false,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Xander Mobus"
+      ],
+      "splashArtist": [
+        "Alex 'alexplank' Flores"
+      ]
+    },
+    {
+      "name": "Mecha Kingdoms",
+      "id": 875001,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Mecha Kingdoms",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Amethyst",
+          "id": 875002,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/875/875002.png",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Peacekeeper",
+          "id": 875007,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/875/875007.png",
+          "colors": [
+            "#0C0E15",
+            "#611B9E"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in 2020.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 875006,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/875/875006.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 875004,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/875/875004.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2020.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Tanzanite",
+          "id": 875003,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/875/875003.png",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 875005,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/875/875005.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "A nameless barbarian who survived on the outskirts, Sett knew his greatest talent came from his fists. After building his wealth and reputation in brutal fighting pits, he created a new persona, donning the title of The Savage Wolf. Upon hearing of the leviathan invasion, he used his fame and fortune to acquire an Avalon of his own in order to, once and for all, prove his might in front of a captivated audience.",
+      "release": "2020-01-14",
+      "set": [
+        "Mecha Kingdoms"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/875/875001.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/875/875001.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/875/875001.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sett/skins/skin01/settloadscreen_1.sett.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sett/skins/skin01/settloadscreen_1_le.sett.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Xander Mobus"
+      ],
+      "splashArtist": [
+        "Alvin Lee"
+      ]
+    },
+    {
+      "name": "Obsidian Dragon",
+      "id": 875008,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Obsidian Dragon",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [],
+      "lore": "Once an outcast child, Sett swore he would gain power to destroy anyone who made him feel weak. The Obsidian Dragon took notice of his grit and ferocity and blessed him with obsidian-hardened skin. Sett now uses his superhuman strength to make a name for himself as a pit fighter, and every hit that bounces off his crystalline skin makes his enemies tremble.",
+      "release": "2020-10-01",
+      "set": [
+        "Dragonmancers"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/875/875008.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/875/875008.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/875/875008.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sett/skins/skin08/settloadscreen_8.pie_c_10_20.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sett/skins/skin08/settloadscreen_8_le.pie_c_10_20.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Xander Mobus"
+      ],
+      "splashArtist": [
+        "Xiao Guang Sun",
+        "West Studio"
+      ]
+    },
+    {
+      "name": "Prestige Obsidian Dragon",
+      "id": 875009,
+      "isBase": false,
+      "availability": "Rare",
+      "formatName": "Obsidian Dragon Sett Prestige Edition",
+      "lootEligible": true,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "2000 Worlds 2020 tokens",
+      "rarity": "Mythic",
+      "chromas": [],
+      "lore": "After cementing his reputation as an indomitable pit fighter, Sett used his winnings to give his mother the comfortable life of their dreams. With her happiness secured, Sett returns to the pits, determined to mentor talented young fighters and remake the fighting pits into a system that rewards not the richest or the largest, but the most determined.",
+      "release": "2020-10-01",
+      "set": [
+        "Dragonmancers"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/875/875009.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/875/875009.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/875/875009.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sett/skins/skin09/settloadscreen_9.prestige_sett_dragonmancer.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/sett/skins/skin09/settloadscreen_9_le.prestige_sett_dragonmancer.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Xander Mobus"
+      ],
+      "splashArtist": [
+        "Sanhua Chen",
+        "Kudos Productions"
+      ]
+    }
+  ]
+}

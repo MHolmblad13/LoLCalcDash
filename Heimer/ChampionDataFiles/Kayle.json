@@ -1,0 +1,1721 @@
+{
+  "id": 10,
+  "key": "Kayle",
+  "name": "Kayle",
+  "title": "the Righteous",
+  "fullName": "",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/11.7.1/img/champion/Kayle.png",
+  "resource": "MANA",
+  "attackType": "MELEE",
+  "adaptiveType": "PHYSICAL_DAMAGE",
+  "stats": {
+    "health": {
+      "flat": 600,
+      "percent": 0.0,
+      "perLevel": 85,
+      "percentPerLevel": 0.0
+    },
+    "healthRegen": {
+      "flat": 5,
+      "percent": 0.0,
+      "perLevel": 0.5,
+      "percentPerLevel": 0.0
+    },
+    "mana": {
+      "flat": 330,
+      "percent": 0.0,
+      "perLevel": 50,
+      "percentPerLevel": 0.0
+    },
+    "manaRegen": {
+      "flat": 8,
+      "percent": 0.0,
+      "perLevel": 0.8,
+      "percentPerLevel": 0.0
+    },
+    "armor": {
+      "flat": 26,
+      "percent": 0.0,
+      "perLevel": 3,
+      "percentPerLevel": 0.0
+    },
+    "magicResistance": {
+      "flat": 30,
+      "percent": 0.0,
+      "perLevel": 0.5,
+      "percentPerLevel": 0.0
+    },
+    "attackDamage": {
+      "flat": 50,
+      "percent": 0.0,
+      "perLevel": 2.5,
+      "percentPerLevel": 0.0
+    },
+    "movespeed": {
+      "flat": 335,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "acquisitionRadius": {
+      "flat": 600,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "selectionRadius": {
+      "flat": 140,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "pathingRadius": {
+      "flat": 35,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "gameplayRadius": {
+      "flat": 65,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "criticalStrikeDamage": {
+      "flat": 200,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "criticalStrikeDamageModifier": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackSpeed": {
+      "flat": 0.625,
+      "percent": 0.0,
+      "perLevel": 1.5,
+      "percentPerLevel": 0.0
+    },
+    "attackSpeedRatio": {
+      "flat": 0.666999995708465,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackCastTime": {
+      "flat": 0.300000011920928,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackTotalTime": {
+      "flat": 1.54999995231628,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackDelayOffset": {
+      "flat": 0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackRange": {
+      "flat": 175,
+      "percent": 0.0,
+      "perLevel": 0,
+      "percentPerLevel": 0.0
+    },
+    "aramDamageTaken": {
+      "flat": 1.03,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "aramDamageDealt": {
+      "flat": 0.95,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "aramHealing": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "aramShielding": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfDamageTaken": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfDamageDealt": {
+      "flat": 0.95,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfHealing": {
+      "flat": 0.9,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfShielding": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    }
+  },
+  "roles": [
+    "FIGHTER",
+    "SPECIALIST",
+    "SUPPORT"
+  ],
+  "attributeRatings": {
+    "damage": 3,
+    "toughness": 1,
+    "control": 1,
+    "mobility": 1,
+    "utility": 3,
+    "abilityReliance": 20,
+    "attack": 6,
+    "defense": 6,
+    "magic": 7,
+    "difficulty": 2
+  },
+  "abilities": {
+    "P": [
+      {
+        "name": "Divine Ascent",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/p",
+        "effects": [
+          {
+            "description": "Innate: Upon reaching levels 1, 6, 11, and 16, along with spending a skill point, Kayle ascends into a new form, gaining additional bonuses.",
+            "leveling": []
+          },
+          {
+            "description": "Level 1 - Zealous: Kayle on-attack gains 6% (+ 1% per 100 AP) bonus attack speed for 5 seconds, stacking up to 5 times for a maximum of 30% (+ 5% per 100 AP). At maximum stacks, Kayle becomes Exalted and gains 8% bonus movement speed.",
+            "leveling": []
+          },
+          {
+            "description": "Level 6 - Arisen: Kayle becomes ranged and gains 350 bonus attack range, for a total of 525.",
+            "leveling": []
+          },
+          {
+            "description": "Level 11 - Aflame: While Exalted, Kayle on-attack additionally launches a wave of fire forward, dealing 15 \u2212 35 (based on Starfire Spellblade's Rank) (+ 10% bonus AD) (+ 20% AP) magic damage to enemies it passes through. The wave is affected by critical strike modifiers.",
+            "leveling": []
+          },
+          {
+            "description": "Level 16 - Transcendent: Kayle is permanently Exalted and gains an additional 50 bonus attack range, for a total of 575.",
+            "leveling": []
+          }
+        ],
+        "cost": null,
+        "cooldown": null,
+        "targeting": "Passive",
+        "affects": "Self, Enemies",
+        "spellshieldable": null,
+        "resource": null,
+        "damageType": "MAGIC_DAMAGE",
+        "spellEffects": "AoE",
+        "projectile": "SPECIAL",
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "Zealous\nThe stacking attack speed is tracked via a buff called  Zeal, while the maximum stacks bonus grants the buff  Exalted.\nAll sources of ability power will increase the amount of attack speed gained by  Zeal stacks until ascending to Transcendent.\nEach stack grants attack speed based on the amount of ability power Kayle has at the time the stack is acquired. For example, if a stack is acquired while Kayle has  100 ability power, it will grant  7% attack speed. If an additional  100 ability power is gained immediately afterwards (for a total of  200), the next stack will grant  8%. If all ability power is then immediately lost, the next stack will only grant  6%.\nIf Kayle is in her attack animation after the stacks expire, she gains another 0.5 seconds to refresh/stack  Zeal.\nArisen\n\nBasic attacks within  175 will still use Kayle's melee basic attack animations and do not utilize  projectiles.\nThey are still classified as  ranged attacks.\nDue to this fact, projectile blocking effects cannot intercept basic attacks while Kayle's target is within her \"melee\" range.\nAflame\n\nBasic attacks against structures do not trigger fire waves.\nWhile at 4 stacks of  Zeal, the next  on-attack reaching the fifth stack will be empowered by Aflame, releasing the first fire wave.\nTranscendent\n\n Zeal and  Exalted buffs swapped to a new buff that grants the benefit of both and it is not visible on Kayle's HUD.\nThe attack speed no longer needs to be stacked up and will be always on maximum value.\nThis buff also updates its attack speed value whenever a stat update happens and ability power is changed. However, some sources of ability power are no longer tracked, unlike with  Zeal. The following sources becomes invalid:\nRunes\n Infernal Might\n Yuumi's  You and Me!\n Staff of Flowing Water\nFire Waves Details\n\n     Hitboxes shows by a graph side by side.   A wave consists of three projectiles for the hitbox and a fourth for visuals.\nThe hitbox projectiles spawn 75 units behind Kayle, travel through her, and are destroyed once they've traveled 850 units. Their technical details are:\nRange:  850 (755 effective)\nWidth:  200\nProjectile Speed: 2800\nAngle: 18\u00b0 (left and right at 9\u00b0 to their side, respectively)\n Projectile blocking effects can block each projectile individually.\nIt is possible to block the visuals, but still get hit by an unblocked \"invisible\" hitbox projectile.\nHitting an enemy with multiple projectiles of the same wave will not increase the damage dealt.\nFire waves roll  critical strike chance on each target hit individually.\nA known issue is that despite dealing  area spell damage the fire wave does not:\nconsume Mana Charge from  Tear of the Goddess and its upgrades,\nand apply  Muramana's Shock.\nInteractions & Other\n\nBoth the stacking and launching a fire wave is an  on-attack effect that is triggered whenever Kayle completes her attack windup.\nThe fire wave shares cast instance with the triggering basic attack.\nThe amount of  Conqueror stacks gained will be 1 if the basic attack deals damage first or 2 if the wave does so.\nKeep in mind that it's still two damage instances. If one triggers  Bone Plating, the other's damage will be blocked.\nBecause Kayle is both a  melee and  ranged champion, she can purchase both ranged and melee exclusive items at anytime, but their effects will function depending on her current range type; the same principle also applies to runes.\nWaves are fired in the direction that Kayle is facing. Changing that during the early animation via  Flash will also change the direction of the wave.\nEach ascension has an unique animation and a voice line. (See: Kayle's quotes)\nThe ascensions' animation will override the current one, but it does not cancel Kayle's current action, nor her previous orders.",
+        "blurb": "As  Kayle gains levels, she ascends into a new form, becoming stronger.\nLevel 1 - Zealous: Basic attacks grant stacks of  Zeal, each giving her  attack speed. At max stacks, she becomes  Exalted and also gains  movement speed.\nLevel 6 - Arisen: Her  range increases as she becomes a ranged champion.\nLevel 11 - Aflame: While  Exalted, her basic attack launches a wave of fire that deals magic damage.\nLevel 16 - Transcendent: Kayle becomes permanently  Exalted, in addition to gaining even more  range.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": null,
+        "angle": null,
+        "castTime": null,
+        "effectRadius": null,
+        "targetRange": null
+      }
+    ],
+    "Q": [
+      {
+        "name": "Radiant Blast",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/q",
+        "effects": [
+          {
+            "description": "Active: Kayle conjures a portal in front of her that faces the target direction. After a 0.25 second cast delay, a celestial sword launches forward from it.",
+            "leveling": []
+          },
+          {
+            "description": "The sword explodes in a cross-like shape upon colliding with an enemy. Targets struck are dealt magic damage, slowed for 2 seconds, and have their armor and magic resistance reduced by 15% for 4 seconds.",
+            "leveling": [
+              {
+                "attribute": "Magic Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      60,
+                      100,
+                      140,
+                      180,
+                      220
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      60,
+                      60,
+                      60,
+                      60,
+                      60
+                    ],
+                    "units": [
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD"
+                    ]
+                  },
+                  {
+                    "values": [
+                      50,
+                      50,
+                      50,
+                      50,
+                      50
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Slow",
+                "modifiers": [
+                  {
+                    "values": [
+                      26,
+                      32,
+                      38,
+                      44,
+                      50
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%",
+                      "%",
+                      "%"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "cost": {
+          "modifiers": [
+            {
+              "values": [
+                70,
+                75,
+                80,
+                85,
+                90
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                12,
+                11,
+                10,
+                9,
+                8
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Direction",
+        "affects": "Enemies",
+        "spellshieldable": "true",
+        "resource": "MANA",
+        "damageType": "MAGIC_DAMAGE",
+        "spellEffects": "spellaoe",
+        "projectile": "TRUE",
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "Details\nThe portal is created at the start of the cast time and it does not follow Kayle's movement, using  Flash or getting displaced won't change its position nor direction.\nThe explosion consist of 5 hitboxes, forming a cross-like shape centered 100 units ahead from the impact in its direction. Their technical data can be seen below and visualized on the image to the right.      The left side shows projectile's width and the total area traveled if it does not hit a target, while the right side shows the explosions when it hits a target.  \nExplosionCenter: 100 radius\nExplosionLeft: 150 distance, 125 width\nExplosionRight: 150 distance, 125 width\nExplosionBackward: 100 distance, 90 width\nExplosionForward: 400 distance, 90 width\nInteractions & Other\n\nThe visual effects of the explosion shows the blade and guard of Kayle's swords.\nThe cast delay represents how much time needed for the projectile to spawn.\nSince patch V9.17, the cast time matches the cast delay. The ability before had a 0.5 second cast delay and the cast time matched Kayle's basic attack timer.\nThe resistance reduction can be tracked on the HUD as a debuff called  Sundered.\nIts VFX only lasts for 3 seconds.",
+        "blurb": "Active:  Kayle summons a celestial sword that travels forward and expands upon hitting a target, dealing magic damage,  slowing, and reducing the  armor and  magic resistance of all targets struck.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": "1600",
+        "width": "150",
+        "angle": null,
+        "castTime": "0.25",
+        "effectRadius": null,
+        "targetRange": "900"
+      }
+    ],
+    "W": [
+      {
+        "name": "Celestial Blessing",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/w",
+        "effects": [
+          {
+            "description": "Active: Kayle and the target allied champion are healed and gain bonus movement speed for 2 seconds.",
+            "leveling": [
+              {
+                "attribute": "Heal",
+                "modifiers": [
+                  {
+                    "values": [
+                      60,
+                      90,
+                      120,
+                      150,
+                      180
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      30,
+                      30,
+                      30,
+                      30,
+                      30
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Bonus Movement Speed",
+                "modifiers": [
+                  {
+                    "values": [
+                      24,
+                      28,
+                      32,
+                      36,
+                      40
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%",
+                      "%",
+                      "%"
+                    ]
+                  },
+                  {
+                    "values": [
+                      8,
+                      8,
+                      8,
+                      8,
+                      8
+                    ],
+                    "units": [
+                      "% per 100 AP",
+                      "% per 100 AP",
+                      "% per 100 AP",
+                      "% per 100 AP",
+                      "% per 100 AP"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "If cast without a valid target, or self-cast, Celestial Blessing will automatically target the closest allied champion in range, prioritizing the one with the least amount of health.",
+            "leveling": []
+          }
+        ],
+        "cost": {
+          "modifiers": [
+            {
+              "values": [
+                90,
+                100,
+                110,
+                120,
+                130
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                15,
+                15,
+                15,
+                15,
+                15
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Unit / Auto",
+        "affects": "Self, Allies",
+        "spellshieldable": null,
+        "resource": "MANA",
+        "damageType": null,
+        "spellEffects": null,
+        "projectile": null,
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "Details\nCelestial Blessing's cast time does not interrupt movement and the effects are applied at the start.\nInteractions & Other\n\nIf cast with auto-targeting, Celestial Blessing may target allies who are  untargetable, or allied clones that cannot be targeted by allies (such as  Wukong's  Warrior Trickster).",
+        "blurb": "Active:  Kayle  heals herself and the target allied champion, and both gain bonus  movement speed.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": null,
+        "angle": null,
+        "castTime": "0.25",
+        "effectRadius": null,
+        "targetRange": "900"
+      }
+    ],
+    "E": [
+      {
+        "name": "Starfire Spellblade",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/e",
+        "effects": [
+          {
+            "description": "Passive: Kayle deals bonus magic damage on-hit. The fire waves from Divine Ascent deal damage equal to this value.",
+            "leveling": [
+              {
+                "attribute": "Passive Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      15,
+                      20,
+                      25,
+                      30,
+                      35
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      10,
+                      10,
+                      10,
+                      10,
+                      10
+                    ],
+                    "units": [
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD"
+                    ]
+                  },
+                  {
+                    "values": [
+                      20,
+                      20,
+                      20,
+                      20,
+                      20
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "Active: Kayle kindles her blade, empowering her next basic attack within 6 seconds to have an uncancelable windup and deal additional bonus magic damage on-hit that is capped at 400 against monsters. Before ascending to Arisen, Starfire Spellblade also grants her 525 range.",
+            "leveling": [
+              {
+                "attribute": "Bonus Magic Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      8,
+                      9,
+                      10,
+                      11,
+                      12
+                    ],
+                    "units": [
+                      "%  of target's missing health",
+                      "%  of target's missing health",
+                      "%  of target's missing health",
+                      "%  of target's missing health",
+                      "%  of target's missing health"
+                    ]
+                  },
+                  {
+                    "values": [
+                      2,
+                      2,
+                      2,
+                      2,
+                      2
+                    ],
+                    "units": [
+                      "% per 100 AP",
+                      "% per 100 AP",
+                      "% per 100 AP",
+                      "% per 100 AP",
+                      "% per 100 AP"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "After ascending to Aflame, Starfire Spellblade is upgraded, causing the basic attack to explode centered on the target, dealing 100% AD physical damage to all enemies within and applying on-hit effects to them. The damage is affected by critical strike modifiers.",
+            "leveling": []
+          },
+          {
+            "description": "Starfire Spellblade resets Kayle's basic attack timer.",
+            "leveling": []
+          }
+        ],
+        "cost": null,
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                8,
+                7.5,
+                7,
+                6.5,
+                6
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Auto",
+        "affects": "Self, Enemies",
+        "spellshieldable": "true",
+        "resource": null,
+        "damageType": "MAGIC_DAMAGE",
+        "spellEffects": "Special",
+        "projectile": "TRUE",
+        "onHitEffects": "True",
+        "occurrence": null,
+        "notes": "Details\nThe ability consist of 3 different damage source types:\nThe basic attack part is  basic.\nThe passive is  proc.\nThe active is  spell.\nThe damage against secondary targets caught in the explosion is also tagged as area of effect.\nThe basic attack portion of the active's explosion is a standard basic attack, just in an area. It is affected by  critical strike modifiers and other effects that interact with basic attacks, such as  Plated Steelcaps.\nKeep in mind that  on-attack effects are only applied once per basic attack, not per target hit. (Exception:  Kraken Slayer, see below)\n \ud835\udc0f\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc13\ud835\udc04\ud835\udc12\ud835\udc13 : All parry interactions are marked for retesting because of the changes Starfire Spellblade received in patch V11.1.\n\nParry interactions:\n Blind: The main target will never receive damage but secondary targets struck in the explosion will receive the active's damage.\n Dodge: Dodging will always negate all damage.\n Block: Blocking will always negate all damage. Keep in mind that even if the main target is inside  Spirit's Refuge's zone, targets struck in the explosion outside of the area won't block the damage.\nInteractions & Other\n\n \ud835\udc0f\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc13\ud835\udc04\ud835\udc12\ud835\udc13 : Did patch V11.1 make the basic attack and the active's damage to be the part of the same cast instance?\nWhile the effect is active a circle is visible to Kayle, indicating her  range, however, this circle only takes into account  Divine Ascent's effect on her range, not other sources such as  Rapid Firecannon.\nThe increased range will be  675 prior to ascending to Transcendent, after which it's  725.\nSingle-use on-hits (Such as Spellblade) will be applied to the main target.\nIf the main target died prior to the projectile reaching them, or if it was a jungle plant, the effects will be applied to the closest target from the explosion's center.\n \ud835\udc0f\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc13\ud835\udc04\ud835\udc12\ud835\udc13 :  Guinsoo's Rageblade's Phantom Hit can only be applied to the main target.\n \ud835\udc0f\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc13\ud835\udc04\ud835\udc12\ud835\udc13 : Muramana (Wait until patch 11.6!)\n \ud835\udc0f\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc13\ud835\udc04\ud835\udc12\ud835\udc13 : If the active's magic damage deals more than 0 damage, shock is triggered twice.\n \ud835\udc0f\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc13\ud835\udc04\ud835\udc12\ud835\udc13 : Affected by Muramana's internal cooldown.\n \ud835\udc0f\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc13\ud835\udc04\ud835\udc12\ud835\udc13 : Only the main target can receive double proc, other targets caught by the explosion can not.\n \ud835\udc0f\ud835\udc04\ud835\udc0d\ud835\udc03\ud835\udc08\ud835\udc0d\ud835\udc06 \ud835\udc05\ud835\udc0e\ud835\udc11 \ud835\udc13\ud835\udc04\ud835\udc12\ud835\udc13 :  Kraken Slayer will never trigger against a single target if the ranged empowered attack was used after a basic attack, but will trigger multiple times against group of enemies (based on distance from the center).\nMelee empowered attacks are not affected.\nBasic attacks empowered by Starfire Spellblade have increased \"melee range\" ( 200), not utilizing projectiles below.\nStarfire Spellblade can behave both as a  ranged and  melee attack based on how far the target is prior to Kayle ascending to  Arisen, after which the attack will be always using ranged standards.\nIf the target is 200 units away or closer, the attack will be considered melee.\nIf the target is over 200 units, the attack will be considered ranged. To further expand on this: Using the ranged empowered attack will change Kayle's range type to ranged while the projectile is alive. This means that if the target could outrun the projectile, Kayle will be stuck on being ranged, although the bonuses are not kept.",
+        "blurb": "Passive:  Kayle deals bonus magic damage  on-hit.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": "5000",
+        "width": null,
+        "angle": null,
+        "castTime": "none",
+        "effectRadius": "350",
+        "targetRange": null
+      }
+    ],
+    "R": [
+      {
+        "name": "Divine Judgment",
+        "icon": "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/r",
+        "effects": [
+          {
+            "description": "Active: Kayle grants herself or the target allied champion invulnerability for a few seconds once the cast time begins, conjuring swords of holy fire, and highlighting a fixed area around the target.",
+            "leveling": [
+              {
+                "attribute": "Duration",
+                "modifiers": [
+                  {
+                    "values": [
+                      2,
+                      2.5,
+                      3
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "Upon completing the cast time, the swords rain down, dealing magic damage to enemies in the highlighted area.",
+            "leveling": [
+              {
+                "attribute": "Magic Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      200,
+                      350,
+                      500
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      100,
+                      100,
+                      100
+                    ],
+                    "units": [
+                      "% bonus AD",
+                      "% bonus AD",
+                      "% bonus AD"
+                    ]
+                  },
+                  {
+                    "values": [
+                      80,
+                      80,
+                      80
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "Divine Judgment will prioritize casting on allies over Kayle.",
+            "leveling": []
+          }
+        ],
+        "cost": {
+          "modifiers": [
+            {
+              "values": [
+                100,
+                50,
+                0
+              ],
+              "units": [
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                160,
+                120,
+                80
+              ],
+              "units": [
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Unit",
+        "affects": "Allies, Self",
+        "spellshieldable": "True",
+        "resource": "MANA",
+        "damageType": "MAGIC_DAMAGE",
+        "spellEffects": "spellaoe",
+        "projectile": null,
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "Details\nDivine Judgment's cast time does not interrupt movement.\nThe cast time will finish even after Kayle's death.\nBecause  internalraw damage ignores invulnerability, the target may still die via  Nexus Obelisk, but the ability will finish at their corpse's position regardless.\nPrior to becoming Transcended, casting Divine Judgment refreshes the duration of  Zealous stacks.\nKayle's basic attack range is set to  400 during Divine Judgment's cast time to bring her within the effective range of the ability if attack commands are issued on an enemy.\nThe area around the target does not appear if the target is not  visible to the enemies' point of view.\nWhile the target is  invulnerable, a number indicator will appear beneath them whenever they would receive damage to show the amount that was entirely mitigated. This is calculated pre-mitigation, or before resistances and reductions are taken into account.\nInteractions & Other\n\n Rapid Firecannon's Energized behaves strangely with the set basic attack range, causing it to jump in value within a short period.\nBefore Transcended: When the cast starts, the range changes from  400 to  337, then after the cast end, it changes from  612 to  675 (actual attack range while Energized).\nAfter Transcended: The values are the same after the cast starts, but changes after the cast end, going from  662 to  725 range (attack range while Energized and Transcended).\nGaining Energized during the cast time will cause the range to jump between values, averaged around  540.\nThe  invulnerability can be tracked on the HUD as a buff called  Intervention.",
+        "blurb": "Active:  Kayle grants herself or an allied champion  invulnerability for few seconds and conjures swords of fire around herself.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": null,
+        "angle": null,
+        "castTime": "1.5",
+        "effectRadius": "500",
+        "targetRange": "900"
+      }
+    ]
+  },
+  "releaseDate": "2009-02-21",
+  "releasePatch": "Alpha Week 2",
+  "patchLastChanged": "11.1",
+  "price": {
+    "blueEssence": 450,
+    "rp": 260,
+    "saleRp": 0
+  },
+  "lore": "Born to a Targonian Aspect at the height of the Rune Wars, Kayle honored her mother's legacy by fighting for justice on wings of divine flame. She and her twin sister Morgana were the protectors of Demacia for many years\u2014until Kayle became disillusioned with the repeated failings of mortals, and abandoned this realm altogether. Still, legends are told of her punishing the unjust with her fiery swords, and many hope that she will one day return\u2026",
+  "skins": [
+    {
+      "name": "Original",
+      "id": 10000,
+      "isBase": true,
+      "availability": "Available",
+      "formatName": "Original",
+      "lootEligible": true,
+      "cost": 260,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "NoRarity",
+      "chromas": [],
+      "lore": "Born to a Targonian Aspect at the height of the Rune Wars, Kayle honored her mother\u2019s legacy by fighting for justice on wings of divine flame. She and her twin sister Morgana were the protectors of Demacia for many years\u2014until Kayle became disillusioned with the repeated failings of mortals, and abandoned this realm altogether. Still, legends are told of her punishing the unjust with her fiery swords, and many hope that she will one day return\u2026",
+      "release": "2009-02-21",
+      "set": [],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/10/10000.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/10/10000.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/10/10000.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/base/kayleloadscreen.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": false,
+      "newAnimations": false,
+      "newRecall": false,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Zehra Fazal"
+      ],
+      "splashArtist": [
+        "Jessica 'OwleyCat' Oyhenart",
+        "Victor '3rdColossus' Maury"
+      ]
+    },
+    {
+      "name": "Silver",
+      "id": 10001,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Silver",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Retail Purchase",
+      "rarity": "NoRarity",
+      "chromas": [],
+      "lore": "Given to players who purchased the Retail Collector's Edition of League of Legends.",
+      "release": "2009-11-13",
+      "set": [
+        "Collector's Edition"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/10/10001.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/10/10001.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/10/10001.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin01/kayleloadscreen_1.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": false,
+      "newRecall": false,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Zehra Fazal"
+      ],
+      "splashArtist": [
+        "Jem Flores"
+      ]
+    },
+    {
+      "name": "Viridian",
+      "id": 10002,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Viridian",
+      "lootEligible": true,
+      "cost": 520,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "NoRarity",
+      "chromas": [
+        {
+          "name": "Aquamarine",
+          "id": 10011,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10011.png",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Citrine",
+          "id": 10010,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10010.png",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 10014,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10014.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 10012,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10012.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 10013,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10013.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        }
+      ],
+      "lore": "Forest Elves are long lived compared to the humans they live among, and many delve into centuries-long explorations for even a scrap of their empires' lost magic. Those who find it, such as Kayle, are gifted with incredible powers over the natural world.",
+      "release": "2010-06-01",
+      "set": [
+        "Albion"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/10/10002.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/10/10002.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/10/10002.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin02/kayleloadscreen_2.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": false,
+      "newAnimations": false,
+      "newRecall": false,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Zehra Fazal"
+      ],
+      "splashArtist": [
+        "Zeen Chin"
+      ]
+    },
+    {
+      "name": "Transcended",
+      "id": 10003,
+      "isBase": false,
+      "availability": "Legacy",
+      "formatName": "Transcended",
+      "lootEligible": true,
+      "cost": 975,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "NoRarity",
+      "chromas": [],
+      "lore": "Having cast aside her humanity, Kayle has transcended and fully assumed her mother's mantle as the divine Aspect of Justice. She is aware of her mortal origins, but views it as something distant that she left behind very long ago.",
+      "release": "2010-07-13",
+      "set": [],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/10/10003.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/10/10003.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/10/10003.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin03/kayleloadscreen_3.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": false,
+      "newAnimations": false,
+      "newRecall": false,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Zehra Fazal"
+      ],
+      "splashArtist": [
+        "Atey Ghailan"
+      ]
+    },
+    {
+      "name": "Battleborn",
+      "id": 10004,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Battleborn",
+      "lootEligible": true,
+      "cost": 975,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "NoRarity",
+      "chromas": [],
+      "lore": "Kayle is a benevolent goddess in times of peace, and a terrifying battle spirit in times of war. She wears the traditional warpaint of her people as a living record of their victories and power.",
+      "release": "2011-04-18",
+      "set": [
+        "Woad"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/10/10004.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/10/10004.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/10/10004.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin04/kayleloadscreen_4.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": false,
+      "newRecall": false,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Zehra Fazal"
+      ],
+      "splashArtist": [
+        "Bo 'chenbowow' Chen"
+      ]
+    },
+    {
+      "name": "Judgment",
+      "id": 10005,
+      "isBase": false,
+      "availability": "Limited",
+      "formatName": "Judgment",
+      "lootEligible": false,
+      "cost": "special",
+      "sale": 0,
+      "distribution": "Limited Distribution",
+      "rarity": "NoRarity",
+      "chromas": [],
+      "lore": "Those poor souls accused of crimes are brought before the all-seeing entity Kayle, where their deeds are judged with cold dispassion. Few are absolved, and fewer still escape their sentence.",
+      "release": "2011-08-22",
+      "set": [],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/10/10005.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/10/10005.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/10/10005.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin05/kayleloadscreen_5.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": false,
+      "newRecall": false,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Zehra Fazal"
+      ],
+      "splashArtist": [
+        "Viktor Titov",
+        "Grafit Studio"
+      ]
+    },
+    {
+      "name": "Aether Wing",
+      "id": 10006,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Aether Wing",
+      "lootEligible": true,
+      "cost": 1820,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Legendary",
+      "chromas": [],
+      "lore": "Authorized pilot of the X07-Gevurah combat exosuit, Kayle is a justicar of the Royal Space Military operating deep in the heart of lawless space. Though her mission is to uphold the fragile postwar peace, years of violent conflict have radicalized her\u2014now she acts as heartless judge, jury, and executioner for anyone or anything that falls beneath her gaze.",
+      "release": "2013-01-18",
+      "set": [
+        "Steel Valkyries"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/10/10006.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/10/10006.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/10/10006.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin06/kayleloadscreen_6.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": true,
+      "newQuotes": false,
+      "voiceActor": [
+        "Zehra Fazal"
+      ],
+      "splashArtist": [
+        "Alex 'alexplank' Flores"
+      ]
+    },
+    {
+      "name": "Riot",
+      "id": 10007,
+      "isBase": false,
+      "availability": "Legacy",
+      "formatName": "Riot",
+      "lootEligible": true,
+      "cost": 975,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "NoRarity",
+      "chromas": [],
+      "lore": "A Riot Games skin obtained by either meeting a Rioter or attending an official Riot event in 2014.",
+      "release": "2014-08-12",
+      "set": [
+        "Riot"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/10/10007.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/10/10007.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/10/10007.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin07/kayleloadscreen_7.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Zehra Fazal"
+      ],
+      "splashArtist": [
+        "John Yucedag"
+      ]
+    },
+    {
+      "name": "Iron Inquisitor",
+      "id": 10008,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Iron Inquisitor",
+      "lootEligible": true,
+      "cost": 750,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "NoRarity",
+      "chromas": [],
+      "lore": "To be crowned inquisitor was to take a stand against the darkness, and at the head of the order stood Kayle, for her light shone the brightest. But darkness comes in many forms, and when the city fell, even its greatest champion would eventually turn upon her sisters.",
+      "release": "2016-05-04",
+      "set": [
+        "Omen of the Dark"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/10/10008.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/10/10008.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/10/10008.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin08/kayleloadscreen_8.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": false,
+      "newAnimations": false,
+      "newRecall": false,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Zehra Fazal"
+      ],
+      "splashArtist": [
+        "Pan Chengwei"
+      ]
+    },
+    {
+      "name": "Pentakill",
+      "id": 10009,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Pentakill",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [],
+      "lore": "When PENTAKILL needed a female vocalist, the heavens parted and a literal angel of rock fell to earth, taking up her sword-mic for the eternal glory of heavy metal.",
+      "release": "2017-08-08",
+      "set": [
+        "Pentakill"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/10/10009.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/10/10009.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/10/10009.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin09/kayleloadscreen_9.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Zehra Fazal"
+      ],
+      "splashArtist": [
+        "Alvin Lee",
+        "Kan Liu"
+      ]
+    },
+    {
+      "name": "PsyOps",
+      "id": 10015,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "PsyOps",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Emerald",
+          "id": 10021,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10021.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Hunter",
+          "id": 10023,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10023.png",
+          "colors": [
+            "#B2D1E4",
+            "#3CABFF"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a Loot exclusive in the 2020 PsyOps event.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 10020,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10020.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "tencent"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 10016,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10016.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2020.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sandstone",
+          "id": 10017,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10017.png",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 10019,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10019.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Tanzanite",
+          "id": 10022,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10022.png",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Turquoise",
+          "id": 10018,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10018.png",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "A self-described \u201csavior\u201d and powerful psionic swordswoman, Kayle views herself as an impartial judge in world affairs, appearing on wings powered by psychic energy as an angel of war. Her understanding of the world is black and white to a frightening extreme, and she has joined the paramilitary BRG to see her twisted vision realized.",
+      "release": "2020-09-17",
+      "set": [
+        "Black Rose Group"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/10/10015.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/10/10015.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/10/10015.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin15/kayleloadscreen_15.pie_c_10_19.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin15/kayleloadscreen_15_le.pie_c_10_19.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Zehra Fazal"
+      ],
+      "splashArtist": [
+        "West Studio"
+      ]
+    },
+    {
+      "name": "Dragonslayer",
+      "id": 10024,
+      "isBase": false,
+      "availability": "Upcoming",
+      "formatName": "Dragonslayer",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Citrine",
+          "id": 10026,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10026.png",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Emerald",
+          "id": 10027,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10027.png",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 10031,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10031.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 10032,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10032.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 10030,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10030.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "TENCENT"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 10025,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10025.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive in 2021.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Sapphire",
+          "id": 10028,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10028.png",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        },
+        {
+          "name": "Tanzanite",
+          "id": 10029,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/10/10029.png",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": null,
+              "region": null
+            }
+          ]
+        }
+      ],
+      "lore": "A famous dragonslayer who vanished into the distant mountains, obsessed with destroying the dragon lineage utterly. Many years later she has returned, so changed by the carnage that she has begun to resemble a dragon herself.",
+      "release": "",
+      "set": [
+        "Dragon World"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/10/10024.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/10/10024.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/10/10024.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin24/kayleloadscreen_24.pie_c_11_8.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Zehra Fazal"
+      ],
+      "splashArtist": [
+        "Forrest Imel",
+        "West Studio"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1026 @@
+{
+  "id": 223,
+  "key": "TahmKench",
+  "name": "Tahm Kench",
+  "title": "the River King",
+  "fullName": "",
+  "icon": "http://ddragon.leagueoflegends.com/cdn/11.7.1/img/champion/TahmKench.png",
+  "resource": "MANA",
+  "attackType": "MELEE",
+  "adaptiveType": "MAGIC_DAMAGE",
+  "stats": {
+    "health": {
+      "flat": 600,
+      "percent": 0.0,
+      "perLevel": 100,
+      "percentPerLevel": 0.0
+    },
+    "healthRegen": {
+      "flat": 6.5,
+      "percent": 0.0,
+      "perLevel": 0.55,
+      "percentPerLevel": 0.0
+    },
+    "mana": {
+      "flat": 325,
+      "percent": 0.0,
+      "perLevel": 40,
+      "percentPerLevel": 0.0
+    },
+    "manaRegen": {
+      "flat": 8,
+      "percent": 0.0,
+      "perLevel": 1,
+      "percentPerLevel": 0.0
+    },
+    "armor": {
+      "flat": 47,
+      "percent": 0.0,
+      "perLevel": 3.5,
+      "percentPerLevel": 0.0
+    },
+    "magicResistance": {
+      "flat": 32,
+      "percent": 0.0,
+      "perLevel": 1.25,
+      "percentPerLevel": 0.0
+    },
+    "attackDamage": {
+      "flat": 56,
+      "percent": 0.0,
+      "perLevel": 3.2,
+      "percentPerLevel": 0.0
+    },
+    "movespeed": {
+      "flat": 335,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "acquisitionRadius": {
+      "flat": 600,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "selectionRadius": {
+      "flat": 125,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "pathingRadius": {
+      "flat": 50,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "gameplayRadius": {
+      "flat": 80,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "criticalStrikeDamage": {
+      "flat": 200,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "criticalStrikeDamageModifier": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackSpeed": {
+      "flat": 0.658,
+      "percent": 0.0,
+      "perLevel": 2.5,
+      "percentPerLevel": 0.0
+    },
+    "attackSpeedRatio": {
+      "flat": 0.657999992370605,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackCastTime": {
+      "flat": 0.379999995231628,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackTotalTime": {
+      "flat": 1.51900005340576,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackDelayOffset": {
+      "flat": 0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackRange": {
+      "flat": 175,
+      "percent": 0.0,
+      "perLevel": 0,
+      "percentPerLevel": 0.0
+    },
+    "aramDamageTaken": {
+      "flat": 0.9,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "aramDamageDealt": {
+      "flat": 1.05,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "aramHealing": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "aramShielding": {
+      "flat": 1.0,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfDamageTaken": {
+      "flat": 0.7,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfDamageDealt": {
+      "flat": 1.25,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfHealing": {
+      "flat": 1.1,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "urfShielding": {
+      "flat": 1.1,
+      "percent": 0.0,
+      "perLevel": 0.0,
+      "percentPerLevel": 0.0
+    }
+  },
+  "roles": [
+    "SUPPORT",
+    "TANK",
+    "WARDEN"
+  ],
+  "attributeRatings": {
+    "damage": 2,
+    "toughness": 3,
+    "control": 2,
+    "mobility": 1,
+    "utility": 3,
+    "abilityReliance": 65,
+    "attack": 3,
+    "defense": 9,
+    "magic": 6,
+    "difficulty": 1
+  },
+  "abilities": {
+    "P": [
+      {
+        "name": "An Acquired Taste",
+        "icon": "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/p",
+        "effects": [
+          {
+            "description": "Innate: Tahm Kench's basic attacks deal 4% of his maximum health as bonus magic damage. Against enemy champions they also apply An Acquired Taste stack for 5 seconds, stacking up to 3 times, with the duration refreshing on Tongue Lash and subsequent attacks. The stacks decay once every 0.67 seconds when the duration ends.",
+            "leveling": []
+          },
+          {
+            "description": "Tongue Lash and Devour gain additional effects against enemies with 3 stacks.",
+            "leveling": []
+          }
+        ],
+        "cost": null,
+        "cooldown": null,
+        "targeting": "Passive",
+        "affects": "Self",
+        "spellshieldable": null,
+        "resource": null,
+        "damageType": "MAGIC_DAMAGE",
+        "spellEffects": "Proc",
+        "projectile": null,
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "By calculating An Acquired Taste's base damage, using Tahm Kench's base health, An Acquired Taste's damage can be acquired in a different way: 24 \u2212 92 (based on level) (+ 4% bonus health) magic damage.\nThe passive bonus damage applies to turrets.",
+        "blurb": "Tahm Kench puts the heft of his immense body behind his attacks and abilities, gaining extra damage based on his total health. Damaging enemy champions builds stacks of An Acquired Taste. At three stacks, he can use Devour on an enemy champion.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": null,
+        "angle": null,
+        "castTime": null,
+        "effectRadius": null,
+        "targetRange": null
+      }
+    ],
+    "Q": [
+      {
+        "name": "Tongue Lash",
+        "icon": "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/q",
+        "effects": [
+          {
+            "description": "Active: Tahm Kench lashes his tongue in the target direction, dealing magic damage to the first enemy hit and slowing them for 3 seconds.",
+            "leveling": [
+              {
+                "attribute": "Magic Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      80,
+                      130,
+                      180,
+                      230,
+                      280
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      70,
+                      70,
+                      70,
+                      70,
+                      70
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attribute": "Slow",
+                "modifiers": [
+                  {
+                    "values": [
+                      30,
+                      40,
+                      50,
+                      60,
+                      70
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%",
+                      "%",
+                      "%"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "If an enemy champion is struck while at three An Acquired Taste stacks, they're also stunned for 2 seconds, consuming all their stacks.",
+            "leveling": []
+          },
+          {
+            "description": "During Tongue Lash, Devour can be cast for no mana expenditure and cast time to swallow the minion or non-epic monster struck after being pulled over 0.75 seconds at the cost of no longer dealing Tongue Lash's damage.",
+            "leveling": []
+          }
+        ],
+        "cost": {
+          "modifiers": [
+            {
+              "values": [
+                50,
+                50,
+                50,
+                50,
+                50
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                5,
+                5,
+                5,
+                5,
+                5
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Direction",
+        "affects": "Enemies",
+        "spellshieldable": "True",
+        "resource": "MANA",
+        "damageType": "MAGIC_DAMAGE",
+        "spellEffects": "Spell",
+        "projectile": "TRUE",
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "Devour can be 'queued' at any point during Tongue Lash (including the wind-up animation) and will not go on cooldown if Tahm Kench fails to hit a valid target with Tongue Lash.",
+        "blurb": "Tahm Kench lashes out with his tongue, damaging and slowing the first unit hit. This ability gains a stun after three stacks of An Acquired Taste.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": "35",
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": "2000",
+        "width": "140",
+        "angle": null,
+        "castTime": "0.25",
+        "effectRadius": null,
+        "targetRange": "900"
+      }
+    ],
+    "W": [
+      {
+        "name": "Devour",
+        "icon": "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/w",
+        "effects": [
+          {
+            "description": "Active: Tahm Kench swallows the target enemy minion, non-epic monster or allied champion for up to 4 seconds. Swallowed units are rendered untargetable and cannot perform any actions. If the target is an ally, they become displacement immune while swallowed. If the target is an enemy, they are instantly stunned for 0.5 seconds and suppressed for the cast time and while swallowed.",
+            "leveling": []
+          },
+          {
+            "description": "Tahm Kench can swallow a target enemy champion for up to 2 seconds if they have three An Acquired Taste stacks, doing so consumes all of them. If Tahm Kench swallows a champion, he becomes unable to cast movement spells and is slowed by 95% for the duration.",
+            "leveling": []
+          },
+          {
+            "description": "Swallowing an enemy refunds 50% of Devour's cooldown and mana cost.",
+            "leveling": []
+          },
+          {
+            "description": "After 1 second, Devour can be recast into Regurgitate while Tahm Kench's belly is full, and automatically does so at the end of the duration. Allied champions can exit at will by inputting a movement command after the same delay, unless they're immobilized.",
+            "leveling": []
+          }
+        ],
+        "cost": {
+          "modifiers": [
+            {
+              "values": [
+                100,
+                100,
+                100,
+                100,
+                100
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                20,
+                20,
+                20,
+                20,
+                20
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Unit",
+        "affects": "Self, Enemies / Allies",
+        "spellshieldable": "True",
+        "resource": "MANA",
+        "damageType": null,
+        "spellEffects": null,
+        "projectile": null,
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "Devour does not destroy in-flight  projectiles for enemy targets.\nDevour renders enemies  untargetable once they are inside Tahm Kench's belly. Allies become untargetable on-cast.\nDevour counts as an ability activation for the purposes of on-cast effects such as Spellblade and stacking  Force Pulse.\nDetonating the ability early for  Regurgitate does not.\nIf the displacement of the target entering Tahm Kench's belly is interrupted, the target is swallowed immediately.\nDevour's initial  suppression is separate from the one that lasts while swallowed.\n Cleansing the initial one will also remove the displacement of entering the belly.\nDevour will remove  airborne effects from the target upon entering Tahm Kench's belly.\nSwallowed non-champions cannot be reduced below  1 health.\nDevour cannot be used on allies that are  channeling.\nDevour cannot be cast on units that are  displacement immune.\nDevour cannot be cast on  Effigies.\nDevour's cast will cancel if the target becomes  displacement immune during the cast time. The cooldown will be refunded if this occurs.\nThe same also happens if they become  immune to crowd control, although the cooldown is not refunded.\nThe swallowed target will become free if Tahm Kench enters or leaves the  Realm of Death or is teleported by  Realm Warp.\nTahm Kench cannot channel  Recall during Devour.\nSwallowed enemy champions will receive Regurgitate's damage regardless of how they leave Tahm Kench's belly.\nDevour is canceled if the target dies or enters the  Realm of Death during the cast time. It does not go on  cooldown nor expend  mana.\nThe  self-slow is affected by  slow resist.\nDevour will prioritize champions over other units.\nIf champions stay on top of each other it will prioritize those who stay beneath.\nDevour cannot be used on  post-death forms such as  Glory in Death or on targets that are already being devoured by another Tahm Kench.\nDevour cannot be cast on  Zac's  bloblets.\nDevour will not end persistent area-of-effect abilities early (e.g.  Crowstorm,  Slicing Maelstrom,  Inferno Trigger) nor non-channeled ones (e.g.  Center of the Universe).",
+        "blurb": "Tahm Kench devours a target, dealing a percentage of their maximum health as magic damage. He can spit devoured minions and monsters out as a skillshot that deals magic damage in an area upon impact.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": null,
+        "angle": null,
+        "castTime": "0.25",
+        "effectRadius": null,
+        "targetRange": "250"
+      },
+      {
+        "name": "Regurgitate",
+        "icon": "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/w",
+        "effects": [
+          {
+            "description": "Active: Tahm Kench regurgitates the swallowed target a fixed distance in the target direction. If they are an enemy they also take magic damage, capped at 500 against monsters.",
+            "leveling": [
+              {
+                "attribute": "Magic Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      60,
+                      105,
+                      150,
+                      195,
+                      240
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      11,
+                      11,
+                      11,
+                      11,
+                      11
+                    ],
+                    "units": [
+                      "% (+ 2% per 100 AP) of target's maximum health",
+                      "% (+ 2% per 100 AP) of target's maximum health",
+                      "% (+ 2% per 100 AP) of target's maximum health",
+                      "% (+ 2% per 100 AP) of target's maximum health",
+                      "% (+ 2% per 100 AP) of target's maximum health"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "Minions and non-epic monsters that are spat forth can collide with an enemy or terrain to deal magic damage to all enemies around them and themselves before taking Regurgitate's damage.",
+            "leveling": [
+              {
+                "attribute": "Projectile Damage",
+                "modifiers": [
+                  {
+                    "values": [
+                      60,
+                      105,
+                      150,
+                      195,
+                      240
+                    ],
+                    "units": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  {
+                    "values": [
+                      60,
+                      60,
+                      60,
+                      60,
+                      60
+                    ],
+                    "units": [
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP",
+                      "% AP"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "cost": null,
+        "cooldown": null,
+        "targeting": "Direction",
+        "affects": "Enemies / Allies",
+        "spellshieldable": "True",
+        "resource": null,
+        "damageType": "MAGIC_DAMAGE",
+        "spellEffects": "special",
+        "projectile": "FALSE",
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "Applies  spell damage if the swallowed target was an enemy champion and deals  area damage if the swallowed target was a non-champion.\nRegurgitate does not count as an ability activation.\nRegurgitate can send allies to the other side of small walls.\nIf Regurgitate was cast automatically, Tahm Kench will spit the target in his facing direction.",
+        "blurb": "Tahm Kench devours a target, dealing a percentage of their maximum health as magic damage. He can spit devoured minions and monsters out as a skillshot that deals magic damage in an area upon impact.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": null,
+        "angle": null,
+        "castTime": "0.25",
+        "effectRadius": null,
+        "targetRange": "150 / 250 / 650"
+      }
+    ],
+    "E": [
+      {
+        "name": "Thick Skin",
+        "icon": "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/e",
+        "effects": [
+          {
+            "description": "Passive: Tahm Kench stores a percentage of the post-mitigation damage he takes as Grey Health on his health bar, up to a maximum of 100% of his missing health.",
+            "leveling": [
+              {
+                "attribute": "Damage into Grey Health",
+                "modifiers": [
+                  {
+                    "values": [
+                      45,
+                      50,
+                      55,
+                      60,
+                      65
+                    ],
+                    "units": [
+                      "%",
+                      "%",
+                      "%",
+                      "%",
+                      "%"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "description": "While Thick Skin is available, and after taking no damage for 2.5 seconds, Tahm Kench rapidly heals for 30% \u2212 100% (based on level) of his Grey Health over time. Each tick heals for 12 \u2212 209 (based on level).",
+            "leveling": []
+          },
+          {
+            "description": "Active: Tahm Kench converts his current Grey Health into a shield that lasts for 2 seconds.",
+            "leveling": []
+          }
+        ],
+        "cost": null,
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "units": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Auto",
+        "affects": "Self",
+        "spellshieldable": null,
+        "resource": null,
+        "damageType": null,
+        "spellEffects": null,
+        "projectile": null,
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "Thick Skin shield value and Grey Health percentage heal are both boosted by effects that increase heal and shield power. This means Tahm Kench can technically heal more than the normal amount of Grey Health and get a shield bigger than his maximum health.\nAt level 18 Tahm Kench would need 53.8%  heal power to heal for 100% of the damage he takes, reduced to 34.9% with  Revitalize, 23.1% with  Spirit Visage, and 6.9% with both.\nGrey Health converts all post-mitigation damage, Thick Skin effectively grants Tahm Kench a form of true damage mitigation.\nGrey Health can temporarily exceed 100% of his missing health when Tahm Kench heals through other means with a Grey Health bar at 100%. In that case he will keep the higher Grey Health value for a few moments until it updates and removes the amount that he healed.",
+        "blurb": "Tahm Kench turns incoming damage into gray health. As gray health decays, Tahm Kench is healed for a percentage of the gray health amount. When activated, this ability turns all gray health into a shield.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": null,
+        "angle": null,
+        "castTime": "0.25",
+        "effectRadius": null,
+        "targetRange": null
+      }
+    ],
+    "R": [
+      {
+        "name": "Abyssal Voyage",
+        "icon": "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/r",
+        "effects": [
+          {
+            "description": "Active: Tahm Kench channels for up to 6 seconds, highlighting the path to his intended destination to allied champions while opening his maw to offer up to one of them the chance to come with him. Abyssal Voyage can be recast after 0.25 seconds during the channel. If an ally has climbed in, they immediately become untargetable and Tahm Kench automatically begins a 1.65-second channel that, when completed, renders Tahm Kench also untargetable and causes him and his ally to blink to the target location, both becoming unable to perform actions for 1 second and afterwards becoming targetable again.",
+            "leveling": []
+          },
+          {
+            "description": "Recast: Tahm Kench manually begins the channel to blink to the target location. Allies can still join him while they have the chance during this time.",
+            "leveling": []
+          },
+          {
+            "description": "Abyssal Voyage is put on a 10 second cooldown if the second channel is not started or is interrupted.",
+            "leveling": []
+          },
+          {
+            "description": "Allies must be out of combat with enemy champions nor be affected by their crowd control effects within the last 5 seconds to come with Tahm Kench. Tahm Kench may also not start the channel if he has Devoured someone.",
+            "leveling": []
+          }
+        ],
+        "cost": {
+          "modifiers": [
+            {
+              "values": [
+                100,
+                100,
+                100
+              ],
+              "units": [
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        "cooldown": {
+          "modifiers": [
+            {
+              "values": [
+                140,
+                130,
+                120
+              ],
+              "units": [
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "affectedByCdr": true
+        },
+        "targeting": "Location",
+        "affects": "Self, Allies",
+        "spellshieldable": null,
+        "resource": "MANA",
+        "damageType": null,
+        "spellEffects": null,
+        "projectile": null,
+        "onHitEffects": null,
+        "occurrence": null,
+        "notes": "The initial cast counts as an ability activation for the purposes of on-cast effects such as Spellblade and stacking  Force Pulse.\nRecasting the ability does not.\nAbyssal Voyage, upon recast, will alert Tahm Kench's arrival to nearby enemies and allies with a ping.\nThe following table refers for interactions while Tahm Kench is  channeling:\n\n\nType\n\nChannel\n\n\nAttacking\n\nInterrupts the initial channel. Is disabled on the second.\n\n\nAbilities\n\nDisabled\n\n\nMovement\n\nInterrupts the initial channel. Is disabled on the second.\n\n\nItems\n\nUsable\n\nN/A\n\n\nDisabled\n\nAll items are disabled\n\n\nInterrupted by\n\nN/A\n\n\nConsumables\n\nDisabled\n\n\nSpells\n\nUsable\n\nN/A\n\n\nDisabled\n\n Barrier  Clarity  Cleanse  Exhaust  Ghost  Heal  Ignite  Smite  Flash  Teleport  Recall  Hexflash  Mark  Dash\n\n\nInterrupted by\n\nN/A\n\n\nInterrupted by\n\nDamaging effectsDeath Grounding effects Immobilizing effects Cast-inhibiting effects",
+        "blurb": "Tahm Kench teleports across the map, and he may bring one ally champion with him.",
+        "missileSpeed": null,
+        "rechargeRate": null,
+        "collisionRadius": null,
+        "tetherRadius": null,
+        "onTargetCdStatic": null,
+        "innerRadius": null,
+        "speed": null,
+        "width": null,
+        "angle": null,
+        "castTime": "0.25",
+        "effectRadius": null,
+        "targetRange": "2500 / 4000 / 5500 / 7000 / 8500"
+      }
+    ]
+  },
+  "releaseDate": "2015-07-09",
+  "releasePatch": "5.13",
+  "patchLastChanged": "11.1",
+  "price": {
+    "blueEssence": 6300,
+    "rp": 975,
+    "saleRp": 0
+  },
+  "lore": "Known by many names throughout history, the demon Tahm Kench travels the waterways of Runeterra, feeding his insatiable appetite with the misery of others. Though he may appear singularly charming and proud, he swaggers through the physical realm like a vagabond in search of unsuspecting prey. His lashing tongue can stun even a heavily armored warrior from a dozen paces, and to fall into his rumbling belly is to tumble into an abyss from which there is little hope of return.",
+  "skins": [
+    {
+      "name": "Original",
+      "id": 223000,
+      "isBase": true,
+      "availability": "Available",
+      "formatName": "Original",
+      "lootEligible": true,
+      "cost": 975,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "NoRarity",
+      "chromas": [],
+      "lore": "Known by many names throughout history, the demon Tahm Kench travels the waterways of Runeterra, feeding his insatiable appetite with the misery of others. Though he may appear singularly charming and proud, he swaggers through the physical realm like a vagabond in search of unsuspecting prey. His lashing tongue can stun even a heavily armored warrior from a dozen paces, and to fall into his rumbling belly is to tumble into an abyss from which there is little hope of return.",
+      "release": "2015-07-08",
+      "set": [],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/223/223000.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/223/223000.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/223/223000.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/tahmkench/skins/base/tahmkenchloadscreen.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": false,
+      "newAnimations": false,
+      "newRecall": false,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Pat Duke"
+      ],
+      "splashArtist": [
+        "Pan Chengwei"
+      ]
+    },
+    {
+      "name": "Master Chef",
+      "id": 223001,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Master Chef",
+      "lootEligible": true,
+      "cost": 975,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "NoRarity",
+      "chromas": [],
+      "lore": "He's the sushi singer, the loquacious pescatarian, the big catfish with a big fish dish. He'll prep you a meal, then cut you a deal. Here comes Taaaaaaahm Kench!",
+      "release": "2015-07-08",
+      "set": [
+        "Culinary Masters"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/223/223001.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/223/223001.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/223/223001.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/tahmkench/skins/skin01/tahmkenchloadscreen_1.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Pat Duke"
+      ],
+      "splashArtist": [
+        "Alex 'alexplank' Flores"
+      ]
+    },
+    {
+      "name": "Urf Kench",
+      "id": 223002,
+      "isBase": false,
+      "availability": "Available",
+      "formatName": "Urf Kench",
+      "lootEligible": true,
+      "cost": 750,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "NoRarity",
+      "chromas": [],
+      "lore": null,
+      "release": "2016-03-31",
+      "set": [
+        "Disguise"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/223/223002.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/223/223002.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/223/223002.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/tahmkench/skins/skin02/tahmkenchloadscreen_2.jpg",
+      "loadScreenVintagePath": null,
+      "newEffects": false,
+      "newAnimations": false,
+      "newRecall": false,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Pat Duke"
+      ],
+      "splashArtist": [
+        "Alvin Lee"
+      ]
+    },
+    {
+      "name": "Coin Emperor",
+      "id": 223003,
+      "isBase": false,
+      "availability": "Legacy",
+      "formatName": "Coin Emperor",
+      "lootEligible": true,
+      "cost": 1350,
+      "sale": 0,
+      "distribution": null,
+      "rarity": "Epic",
+      "chromas": [
+        {
+          "name": "Amethyst",
+          "id": 223006,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/223/223006.png",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Aquamarine",
+          "id": 223005,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/223/223005.png",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Obsidian",
+          "id": 223004,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/223/223004.png",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Pearl",
+          "id": 223008,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/223/223008.png",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Rose Quartz",
+          "id": 223007,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/223/223007.png",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "descriptions": [
+            {
+              "description": null,
+              "region": null
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 1,
+              "region": "riot"
+            }
+          ]
+        },
+        {
+          "name": "Ruby",
+          "id": 223009,
+          "chromaPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/223/223009.png",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "descriptions": [
+            {
+              "description": "This chroma was released as a bundle exclusive during 2019.",
+              "region": "riot"
+            }
+          ],
+          "rarities": [
+            {
+              "rarity": 2,
+              "region": "riot"
+            }
+          ]
+        }
+      ],
+      "lore": "Craving the smell of coins over all other earthly delights, Tahm Kench rises from his river kingdom each Lunar Revel, seeking to barter with mortals. Though his targets are almost always left destitute, with the proper reverence and careful wording it is possible to escape his bargains unimaginably wealthy.",
+      "release": "2019-01-28",
+      "set": [
+        "Lunar Revel"
+      ],
+      "splashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/223/223003.jpg",
+      "uncenteredSplashPath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/uncentered/223/223003.jpg",
+      "tilePath": "http://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/v1/champion-tiles/223/223003.jpg",
+      "loadScreenPath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/tahmkench/skins/skin03/tahmkenchloadscreen_3.jpg",
+      "loadScreenVintagePath": "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/tahmkench/skins/skin03/tahmkenchloadscreen_3_le.jpg",
+      "newEffects": true,
+      "newAnimations": true,
+      "newRecall": true,
+      "newVoice": false,
+      "newQuotes": false,
+      "voiceActor": [
+        "Pat Duke"
+      ],
+      "splashArtist": [
+        "Pan Chengwei"
+      ]
+    }
+  ]
+}

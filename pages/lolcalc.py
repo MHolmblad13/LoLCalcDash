@@ -12,6 +12,9 @@ from app import app
 from Heimer import champions, items
 
 champArray = [{'label':name, 'value':name} for name in champions.champList]
+stanPointsList = [0,1,2,3,4,5] # this is for all abilities and udyr
+rStanPointsList = [0,1,2,3] # standard amount of R points
+rShapeList = [0,1,2,3,4] # this is for jayce, nidalee, elise
 
 layout = html.Div(
     [
@@ -79,6 +82,72 @@ layout = html.Div(
                     value='Boots',
                     className='w-25'
                 ),
+                dbc.Row([
+                    dbc.Col(
+                        html.Div([
+                            dcc.Markdown('''
+                                Q
+                            '''),
+                            dcc.Dropdown(
+                                id='champ1Q',
+                                options=[
+                                    {'label':point, 'value':point} for point in stanPointsList
+                                ],
+                                value='0',
+                                className='w-75'
+                            ),
+                        ]),  
+                        width = 2   
+                    ),
+                    dbc.Col(
+                        html.Div([
+                            dcc.Markdown('''
+                                W
+                            '''),
+                            dcc.Dropdown(
+                                id='champ1W',
+                                options=[
+                                    {'label':point, 'value':point} for point in stanPointsList
+                                ],
+                                value='0',
+                                className='w-75'
+                            ),
+                        ]),    
+                        width = 2   
+                    ),
+                    dbc.Col(
+                        html.Div([
+                            dcc.Markdown('''
+                                E
+                            '''),
+                            dcc.Dropdown(
+                                id='champ1E',
+                                options=[
+                                    {'label':point, 'value':point} for point in stanPointsList
+                                ],
+                                value='0',
+                                className='w-75'
+                            ),
+                        ]),
+                        width = 2    
+                    ),
+                    dbc.Col(
+                        html.Div([
+                            dcc.Markdown('''
+                                R
+                            '''),
+                            dcc.Dropdown(
+                                id='champ1R',
+                                options=[
+                                    {'label':point, 'value':point} for point in stanPointsList
+                                ],
+                                value='0',
+                                className='w-75'
+                            ),
+                        ]), 
+                        width = 2
+                    ),
+                ])
                 ]
                 ),
             ),
@@ -147,6 +216,72 @@ layout = html.Div(
                     value='Boots',
                     className='w-25'
                 ),
+                dbc.Row([
+                    dbc.Col(
+                        html.Div([
+                            dcc.Markdown('''
+                                Q
+                            '''),
+                            dcc.Dropdown(
+                                id='champ2Q',
+                                options=[
+                                    {'label':point, 'value':point} for point in stanPointsList
+                                ],
+                                value='0',
+                                className='w-75'
+                            ),
+                        ]),  
+                        width = 2   
+                    ),
+                    dbc.Col(
+                        html.Div([
+                            dcc.Markdown('''
+                                W
+                            '''),
+                            dcc.Dropdown(
+                                id='champ2W',
+                                options=[
+                                    {'label':point, 'value':point} for point in stanPointsList
+                                ],
+                                value='0',
+                                className='w-75'
+                            ),
+                        ]),    
+                        width = 2   
+                    ),
+                    dbc.Col(
+                        html.Div([
+                            dcc.Markdown('''
+                                E
+                            '''),
+                            dcc.Dropdown(
+                                id='champ2E',
+                                options=[
+                                    {'label':point, 'value':point} for point in stanPointsList
+                                ],
+                                value='0',
+                                className='w-75'
+                            ),
+                        ]),
+                        width = 2    
+                    ),
+                    dbc.Col(
+                        html.Div([
+                            dcc.Markdown('''
+                                R
+                            '''),
+                            dcc.Dropdown(
+                                id='champ2R',
+                                options=[
+                                    {'label':point, 'value':point} for point in stanPointsList
+                                ],
+                                value='0',
+                                className='w-75'
+                            ),
+                        ]), 
+                        width = 2
+                    ),
+                ])
                 ]
                 ),
             ),
@@ -163,57 +298,26 @@ layout = html.Div(
 # champ 1 name
 @app.callback(
     Output('test','children'),
-    [Input('champ1','value')]
+    [Input('champ1','value'),
+    Input('champ1level','value'),
+    Input('champ1item1', 'value'),
+    Input('champ1item2', 'value'),
+    Input('champ1item3', 'value'),
+    Input('champ1item4', 'value'),
+    Input('champ1item5', 'value'),
+    Input('champ1item6', 'value'),
+    Input('champ1Q','value'),
+    Input('champ1W', 'value'),
+    Input('champ1E', 'value'),
+    Input('champ1R', 'value')]
 )
-def champ1NameData(champ1):
-    return 'You have selected "{}"'.format(champ1)
-
-@app.callback(
-    Output('test2','children'),
-    [Input('champ1level','value')]
-)
-def champ1LevelData(champ1level):
-    return 'You have selected "{}"'.format(champ1level)
-
-@app.callback(
-    Output('test3','children'),
-    [
-        Input('champ1item1', 'value'),
-        Input('champ1item2', 'value'),
-        Input('champ1item3', 'value'),
-        Input('champ1item4', 'value'),
-        Input('champ1item5', 'value'),
-        Input('champ1item6', 'value')
-    ]
-)
-def champ1ItemData(champ1item1,champ1item2, champ1item3, champ1item4, champ1item5, champ1item6):
-    return "Hi"
-
-# champ 2 data
-@app.callback(
-    Output('test4','children'),
-    [Input('champ2','value')]
-)
-def champ2NameData(champ2):
-    return 'You have selected "{}"'.format(champ2)
-
-@app.callback(
-    Output('test5','children'),
-    [Input('champ2level','value')]
-)
-def champ2LevelData(champ2level):
-    return 'You have selected "{}"'.format(champ2level)
-
-@app.callback(
-    Output('test6','children'),
-    [
-        Input('champ2item1', 'value'),
-        Input('champ2item2', 'value'),
-        Input('champ2item3', 'value'),
-        Input('champ2item4', 'value'),
-        Input('champ2item5', 'value'),
-        Input('champ2item6', 'value')
-    ]
-)
-def champ2ItemData(champ2item1,champ2item2, champ2item3, champ2item4, champ2item5, champ2item6):
-    return "Hi"
+def champ1NameData(champ1, champ1level, champ1item1, champ1item2, champ1item3, champ1item4, champ1item5, champ1item6,
+                    champ1Q, champ1W, champ1E, champ1R):
+    calcStats = champions.GetChampionInfo(champ1, champ1level)
+    # next add in item stats
+    # next add in mythic passives
+    # then add item passive stats
+    # then figure out a way to add item bonus effects like shock
+    # then add ability passive stats
+    # then add trigger for steroid stats
+    return 'You have selected "{}", with stats {}'.format(champ1, calcStats)
