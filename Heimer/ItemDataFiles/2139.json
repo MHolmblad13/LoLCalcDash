@@ -1,0 +1,205 @@
+{
+  "active": [],
+  "buildsFrom": [],
+  "buildsInto": [],
+  "icon": "https://raw.communitydragon.org/11.7/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/2139_class_t1_elixirofsorcery.png",
+  "iconOverlay": false,
+  "id": 2139,
+  "name": "Elixir of Sorcery",
+  "nicknames": [
+    "blue",
+    "brilliance",
+    "illumination"
+  ],
+  "noEffects": false,
+  "passives": [],
+  "rank": [],
+  "removed": false,
+  "requiredAlly": "",
+  "requiredChampion": "",
+  "shop": {
+    "prices": {
+      "combined": 0,
+      "sell": 200,
+      "total": 500
+    },
+    "purchasable": true,
+    "tags": [
+      "ABILITY_POWER",
+      "MANA_AND_REG"
+    ]
+  },
+  "simpleDescription": null,
+  "specialRecipe": 0,
+  "stats": {
+    "abilityHaste": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "abilityPower": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "armor": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "armorPenetration": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackDamage": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackSpeed": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "cooldownReduction": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "criticalStrikeChance": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "goldPer_10": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "healAndShieldPower": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "health": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "healthRegen": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "lethality": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "lifesteal": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "magicPenetration": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "magicResistance": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "mana": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "manaRegen": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "movespeed": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "omnivamp": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "tenacity": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    }
+  },
+  "tier": 1
+}

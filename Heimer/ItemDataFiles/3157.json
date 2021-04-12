@@ -1,0 +1,216 @@
+{
+  "active": [
+    {
+      "cooldown": null,
+      "effects": "Put yourself in {{tip|stasis}} for {{fd|2.5}} seconds, rendering yourself {{tip|untargetable}} and {{tip|invulnerable}} for the duration but also unable to move, declare [[basic attack]]s, cast [[champion ability|abilities]], use [[summoner spell]]s, or [[active ability items|activate items]].",
+      "name": "Stasis",
+      "range": null,
+      "unique": true
+    }
+  ],
+  "builds_from": [
+    3191,
+    2420,
+    3108
+  ],
+  "builds_into": [],
+  "icon": "https://raw.communitydragon.org/11.7/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3157_mage_t3_zhonyashourglass.png",
+  "iconOverlay": false,
+  "id": 3157,
+  "name": "Zhonya's Hourglass",
+  "nicknames": [
+    "zhg",
+    "zonyas",
+    "zhonyas"
+  ],
+  "no_effects": false,
+  "passives": [],
+  "rank": [],
+  "removed": false,
+  "required_ally": "",
+  "required_champion": "",
+  "shop": {
+    "prices": {
+      "combined": 0,
+      "sell": 1040,
+      "total": 2600
+    },
+    "purchasable": true,
+    "tags": [
+      "MAGE"
+    ]
+  },
+  "simple_description": null,
+  "special_recipe": 0,
+  "stats": {
+    "ability_haste": {
+      "flat": 10.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "ability_power": {
+      "flat": 65.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "armor": {
+      "flat": 45.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "armor_penetration": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attack_damage": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attack_speed": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "cooldown_reduction": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "critical_strike_chance": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "gold_per_10": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "heal_and_shield_power": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "health": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "health_regen": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "lethality": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "lifesteal": {
+      "flat": 0.0,
+      "per_level": 0.0,
+      "percent": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0,
+      "percent_per_level": 0.0
+    },
+    "magic_penetration": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "magic_resistance": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "mana": {
+      "flat": 0.0,
+      "per_level": 0.0,
+      "percent": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0,
+      "percent_per_level": 0.0
+    },
+    "mana_regen": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "movespeed": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "omnivamp": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "tenacity": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    }
+  },
+  "tier": 3
+}

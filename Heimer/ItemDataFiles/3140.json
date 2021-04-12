@@ -1,0 +1,217 @@
+{
+  "active": [
+    {
+      "cooldown": null,
+      "effects": "Removes all {{tip|crowd control}} debuffs (except {{tip|Airborne}}) from your [[champion]].",
+      "name": "Quicksilver",
+      "range": null,
+      "unique": true
+    }
+  ],
+  "builds_from": [
+    1033
+  ],
+  "builds_into": [
+    6035,
+    3139
+  ],
+  "icon": "https://raw.communitydragon.org/11.7/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3140_marksman_t2_quicksilversash.png",
+  "iconOverlay": false,
+  "id": 3140,
+  "name": "Quicksilver Sash",
+  "nicknames": [
+    "qss"
+  ],
+  "no_effects": false,
+  "passives": [],
+  "rank": [],
+  "removed": false,
+  "required_ally": "",
+  "required_champion": "",
+  "shop": {
+    "prices": {
+      "combined": 0,
+      "sell": 520,
+      "total": 1300
+    },
+    "purchasable": true,
+    "tags": [
+      "FIGHTER",
+      "MARKSMAN",
+      "ASSASSIN"
+    ]
+  },
+  "simple_description": null,
+  "special_recipe": 0,
+  "stats": {
+    "ability_haste": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "ability_power": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "armor": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "armor_penetration": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attack_damage": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attack_speed": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "cooldown_reduction": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "critical_strike_chance": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "gold_per_10": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "heal_and_shield_power": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "health": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "health_regen": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "lethality": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "lifesteal": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "magic_penetration": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "magic_resistance": {
+      "flat": 30.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "mana": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "mana_regen": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "movespeed": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "omnivamp": {
+      "flat": 0.0,
+      "per_level": 0.0,
+      "percent": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0,
+      "percent_per_level": 0.0
+    },
+    "tenacity": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    }
+  },
+  "tier": 2
+}

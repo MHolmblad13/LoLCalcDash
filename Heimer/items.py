@@ -1,4 +1,5 @@
 import pandas as pd
+import json
 
 itemList = ['1001','1004','1006','1011','1018','1026','1027','1028','1029','1031',
 '1033','1035','1036','1037','1038','1039','1042','1043','1052','1053','1054','1055',
@@ -52,3 +53,75 @@ itemNames = ['Boots', 'Faerie Charm', 'Rejuvenation Bead', "Giant's Belt", 'Cloa
 "Serpent's Fang"]
 
 itemDf = pd.DataFrame(itemList, index = itemNames)
+
+def getProperItemIndex(itemName):
+    idx = itemDf[0][itemName]
+    return idx
+
+print(getProperItemIndex('Eclipse'))
+
+def getItemStatsRaw(itemName):
+    j = json.load(open('ItemDataFiles/'+itemName+'.json'))
+    statList = []
+    ap = j["stats"]["abilityPower"]
+    statList.append(ap)
+    armor = j["stats"]["armor"]
+    statList.append(armor)
+    armorPen = j["stats"]["armorPenetration"]
+    statList.append(armorPen)
+    ad = j["stats"]["attackDamage"]
+    statList.append(ad)
+    attackSpeed = j["stats"]["attackSpeed"]
+    statList.append(attackSpeed)
+    cdr = j["stats"]["cooldownReduction"]
+    statList.append(cdr)
+    criticalChance = j["stats"]["criticalStrikeChance"]
+    statList.append(criticalChance)
+    goldPer10 = j["stats"]["goldPer_10"]
+    statList.append(goldPer10)
+    healandShield = j["stats"]["healAndShieldPower"]
+    statList.append(healandShield)
+    health = j["stats"]["health"]
+    statList.append(health)
+    lethality = j["stats"]["lethality"]
+    statList.append(lethality)
+    lifesteal = j["stats"]["lifesteal"]
+    statList.append(lifesteal)
+    magicPen = j["stats"]["magicPenetration"]
+    statList.append(magicPen)
+    magicRes = j["stats"]["magicResistance"]
+    statList.append(magicRes)
+    mana = j["stats"]["mana"]
+    statList.append(mana)
+    manaRegen = j["stats"]["manaRegen"]
+    statList.append(manaRegen)
+    movespeed = j["stats"]["movespeed"]
+    statList.append(movespeed)
+    abilityHaste = j["stats"]["abilityHaste"]
+    statList.append(abilityHaste)
+    omnivamp = j["stats"]["omnivamp"]
+    statList.append(omnivamp)
+    itemInfoDf = pd.DataFrame(statList, index = ["Ability Power", "Armor", "Armor Penetration", "Attack Damage", 
+    "Attack Speed", "Cooldown Reduction", "Critical Strike Chance", "goldPer_10", 
+    "Heal And Shield Power", "Health", "Lethality", "Lifesteal", "Magic Penetration", 
+    "Magic Resistance", "Mana", "Mana Regen", "Move Speed", "Ability Haste", "Omnivamp"])
+    return itemInfoDf
+
+def getFlatBaseStats(baseStatList):
+    flatList = []
+    flatList.append(baseStatList['flat'])
+    return flatList
+
+def getItemFlatStats(itemName):
+    itemId = getProperItemIndex(itemName)
+    itemStatList = getItemStatsRaw(itemId)
+    flatStatList = getFlatBaseStats(itemStatList)[0]
+    itemStatDict = {}
+    for i in range(len(flatStatList)):
+        if flatStatList[i] > 0:
+            value = flatStatList[i]
+            key = flatStatList[flatStatList == flatStatList[i]].index[0]
+            itemStatDict[key] = value
+    return itemStatDict
+
+

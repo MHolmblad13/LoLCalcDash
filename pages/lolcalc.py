@@ -314,7 +314,12 @@ layout = html.Div(
 def champ1NameData(champ1, champ1level, champ1item1, champ1item2, champ1item3, champ1item4, champ1item5, champ1item6,
                     champ1Q, champ1W, champ1E, champ1R):
     calcStats = champions.GetChampionInfo(champ1, champ1level)
-    # next add in item stats
+    itemStats1 = items.getFlatBaseStats(champ1item1)
+    itemStats2 = items.getFlatBaseStats(champ1item2)
+    itemStats3 = items.getFlatBaseStats(champ1item3)
+    itemStats4 = items.getFlatBaseStats(champ1item4)
+    itemStats5 = items.getFlatBaseStats(champ1item5)
+    itemStats6 = items.getFlatBaseStats(champ1item6)
     # next add in mythic passives
     # then add item passive stats
     # then figure out a way to add item bonus effects like shock

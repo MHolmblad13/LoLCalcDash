@@ -1,0 +1,543 @@
+{
+  "active": [],
+  "buildsFrom": [],
+  "buildsInto": [],
+  "icon": "https://raw.communitydragon.org/11.5/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3048_mage_t3_seraphsembrace.png",
+  "iconOverlay": false,
+  "id": 3048,
+  "name": "Seraph's Embrace",
+  "nicknames": [],
+  "noEffects": false,
+  "passives": [
+    {
+      "effects": "Gain {{as|ability power}} equal to {{as|5% '''bonus''' mana}}.",
+      "mythic": false,
+      "name": "Awe",
+      "range": null,
+      "stats": {
+        "ability_haste": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "ability_power": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "armor": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "armor_penetration": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "attack_damage": [
+          {
+            "flat": 0.0,
+            "perLevel": 0.0,
+            "percent": 0.0,
+            "percentBase": 0.0,
+            "percentBonus": 0.0,
+            "percentPerLevel": 0.0
+          }
+        ],
+        "attack_speed": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "cooldown_reduction": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "critical_strike_chance": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "gold_per_10": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "heal_and_shield_power": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "health": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "health_regen": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "lethality": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "lifesteal": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "magic_penetration": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "magic_resistance": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "mana": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "mana_regen": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "movespeed": 0.0,
+        "omnivamp": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "tenacity": {
+          "flat": 0.0,
+          "per_level": 0.0,
+          "percent": 0.0,
+          "percent_base": 0.0,
+          "percent_bonus": 0.0,
+          "percent_per_level": 0.0
+        }
+      },
+      "unique": true
+    },
+    {
+      "effects": "Increase your {{as|'''maximum''' mana by 5%}} {{as|(+ {{fd|2.5}}% per 100 AP)}}.",
+      "mythic": false,
+      "name": "Empyrean",
+      "range": null,
+      "stats": {
+        "abilityHaste": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "abilityPower": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "armor": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "armorPenetration": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "attackDamage": [
+          {
+            "flat": 0.0,
+            "perLevel": 0.0,
+            "percent": 0.0,
+            "percentBase": 0.0,
+            "percentBonus": 0.0,
+            "percentPerLevel": 0.0
+          }
+        ],
+        "attackSpeed": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "cooldownReduction": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "criticalStrikeChance": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "goldPer_10": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "healAndShieldPower": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "health": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "healthRegen": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "lethality": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "lifesteal": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "magicPenetration": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "magicResistance": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "mana": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "manaRegen": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "movespeed": 0.0,
+        "omnivamp": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        },
+        "tenacity": {
+          "flat": 0.0,
+          "perLevel": 0.0,
+          "percent": 0.0,
+          "percentBase": 0.0,
+          "percentBonus": 0.0,
+          "percentPerLevel": 0.0
+        }
+      },
+      "unique": true
+    }
+  ],
+  "rank": [],
+  "removed": false,
+  "requiredAlly": "",
+  "requiredChampion": "",
+  "shop": {
+    "prices": {
+      "combined": 0,
+      "sell": 1200,
+      "total": 3000
+    },
+    "purchasable": false,
+    "tags": []
+  },
+  "simpleDescription": null,
+  "specialRecipe": 3007,
+  "stats": {
+    "abilityHaste": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "abilityPower": {
+      "flat": 65.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "armor": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "armorPenetration": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackDamage": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attackSpeed": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "cooldownReduction": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "criticalStrikeChance": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "goldPer_10": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "healAndShieldPower": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "health": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "healthRegen": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "lethality": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "lifesteal": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "magicPenetration": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "magicResistance": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "mana": {
+      "flat": 860.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "manaRegen": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "movespeed": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "omnivamp": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "tenacity": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    }
+  },
+  "tier": 3
+}

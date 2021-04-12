@@ -1,0 +1,212 @@
+{
+  "active": [
+    {
+      "cooldown": null,
+      "effects": "Summons a {{tip|Sweeper Drone}} that escorts you for the next 10 seconds.",
+      "name": null,
+      "range": 750,
+      "unique": false
+    }
+  ],
+  "buildsFrom": [],
+  "buildsInto": [],
+  "icon": "https://raw.communitydragon.org/11.7/plugins/rcp-be-lol-game-data/global/default/assets/items/icons2d/3364_class_t1_oracleslens.png",
+  "iconOverlay": false,
+  "id": 3364,
+  "name": "Oracle Lens",
+  "nicknames": [
+    "red",
+    "totem",
+    "trinket",
+    "sweeper",
+    "spinny"
+  ],
+  "noEffects": false,
+  "passives": [],
+  "rank": [],
+  "removed": false,
+  "requiredAlly": "",
+  "requiredChampion": "",
+  "shop": {
+    "prices": {
+      "combined": 0,
+      "sell": 0,
+      "total": 0
+    },
+    "purchasable": true,
+    "tags": []
+  },
+  "simpleDescription": null,
+  "specialRecipe": 0,
+  "stats": {
+    "ability_haste": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "ability_power": {
+      "flat": 0.0,
+      "per_level": 0.0,
+      "percent": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0,
+      "percent_per_level": 0.0
+    },
+    "armor": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "armor_penetration": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attack_damage": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "attack_speed": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "cooldown_reduction": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "critical_strike_chance": {
+      "flat": 0.0,
+      "per_level": 0.0,
+      "percent": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0,
+      "percent_per_level": 0.0
+    },
+    "gold_per_10": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "heal_and_shield_power": {
+      "flat": 0.0,
+      "per_level": 0.0,
+      "percent": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0,
+      "percent_per_level": 0.0
+    },
+    "health": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "health_regen": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "lethality": {
+      "flat": 0.0,
+      "per_level": 0.0,
+      "percent": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0,
+      "percent_per_level": 0.0
+    },
+    "lifesteal": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "magic_penetration": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "magic_resistance": {
+      "flat": 0.0,
+      "per_level": 0.0,
+      "percent": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0,
+      "percent_per_level": 0.0
+    },
+    "mana": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "mana_regen": {
+      "flat": 0.0,
+      "per_level": 0.0,
+      "percent": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0,
+      "percent_per_level": 0.0
+    },
+    "movespeed": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    },
+    "omnivamp": {
+      "flat": 0.0,
+      "per_level": 0.0,
+      "percent": 0.0,
+      "percent_base": 0.0,
+      "percent_bonus": 0.0,
+      "percent_per_level": 0.0
+    },
+    "tenacity": {
+      "flat": 0.0,
+      "perLevel": 0.0,
+      "percent": 0.0,
+      "percentBase": 0.0,
+      "percentBonus": 0.0,
+      "percentPerLevel": 0.0
+    }
+  },
+  "tier": 1
+}
